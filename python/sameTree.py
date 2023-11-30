@@ -11,6 +11,7 @@ class TreeNode:
 
 class Solution:
     def isSameTree(self, p, q) -> bool:
+        #para saber si es vacio
         if p is None and q is None:
             return True
         if p is None or q is None:
